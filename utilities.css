@@ -1,0 +1,27 @@
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+ 
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 55% 37%;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 37% 55%;
+    justify-content: space-between;
+    align-items: center;
+}
